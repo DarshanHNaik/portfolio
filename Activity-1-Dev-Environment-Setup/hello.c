@@ -1,11 +1,13 @@
 #include <stdio.h>
- int greet(){
-    printf("Hello, World!\n");
-    return 0;
+
+void greet(const char *name) {
+    printf("Hello, %s! Welcome to your GitHub portfolio.\n", name);
 }
+
 int main() {
-   
-    greet();
+    printf("Hello, World!\n");
     
+    greet("Nitin");
     return 0;
-} 
+    
+}
